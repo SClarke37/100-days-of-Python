@@ -1,1 +1,1 @@
-# 100-days-of-Python
+This project follows the 100 days of code: the complete Python pro bootcamp course by Dr Angela Yu. I am working through this course i my free time for my learning and enjoyment as I want to further my skills beyond what is taught at University, especially as i did not gain any experience prior to starting my degree. 
