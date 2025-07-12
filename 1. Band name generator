@@ -1,1 +1,7 @@
-Printing, commenting, debugging, string manipulation and variables.
+#Printing, commenting, debugging, string manipulation and variables.
+print("Hello and welcome to the band name generator")
+city = input("Which city did you grow up in?\n")
+pet = input("What is the name of your pet?\n")
+print("Your band name would be "+city+" "+pet)
+#to find how many characters are in the band name
+print(len(city) + len(pet))
