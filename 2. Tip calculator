@@ -1,0 +1,22 @@
+#Data types, numbers, operations, type conversion, f-strings
+
+#project starts on line
+
+print("Hello"[0]) #pulling out a number from a string is called subscripting
+#start counting from 0, can also use -1 to pull out last character, -2 second last etc, spaces count as characters
+
+#string
+print("123"+"345")
+
+#integer
+print(123 +345)
+
+#large integers
+print(123_345_567) #_ replaces , when writing large numbers but is ignored in output
+
+#float (short for floating point number)
+print(3.14159)
+
+#boolean (capitalised)
+True
+False
