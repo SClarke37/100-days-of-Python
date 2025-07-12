@@ -1,1 +1,11 @@
 #Data types, numbers, operations, type conversion, f-strings
+
+print("Welcome to the tip calculator!")
+bill = float(input("What was the total bill? £")) #must change for calculations as input gives a string
+tip = int(input("What percentage tip would you like to give? e.g. 10 12 15, please don't add a percentage sign"))
+people = int(input("How many people to split the bill? "))
+
+bill_with_tip = tip / 100 * bill + bill #e.g. calculates 112% of bill
+bill_per_person = bill_with_tip / people
+final_amount = round(bill_per_person, 2)
+print(f"Each person should pay £{final_amount}")
